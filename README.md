@@ -1,32 +1,6 @@
-# PPT to JSON
+# PPT to JSON (Senior Project)
 
-This library provides a simple and convenient way to convert PowerPoint (.ppt) files into JSON format. This allows for easy parsing, manipulation, and analysis of slide content.
-
-## Installation
-
-To install the `ppt-to-json` library, use npm:
-
-```bash
-npm install ppt-to-json
-```
-
-## Usage
-
-First, import the `PPTtoJSON` from `ppt-to-json`.
-
-```javascript
-const PPTtoJSON = require("ppt-to-json");
-```
-
-Then, call the `readPath` function with the path to your PowerPoint file.
-
-```javascript
-PPTtoJSON.readPath("./sample.ppt")
-  .then((json) => console.log(json))
-  .catch((error) => console.error(error.message));
-```
-
-This function will return a Promise that resolves to a JSON object representing the content of the PowerPoint file. If an error occurs while reading the file or converting it to JSON, the Promise will be rejected with an error message.
+This project provides a simple and convenient way to convert PowerPoint (.ppt) files into JSON format. This allows for easy parsing, manipulation, and analysis of slide content.
 
 ## Resulting JSON structure
 
